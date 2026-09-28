@@ -1,0 +1,14 @@
+{
+  "user": {
+    "first_name": "Rahul Kumar",
+    "last_name": "Shaw",
+    "email_template": "rahul.shaw.qa.{timestamp}@example.com",
+    "telephone": "9999999999",
+    "password": "Test@12345"
+  },
+  "product": {
+    "search_term": "MacBook",
+    "quantity_to_add": 1,
+    "updated_quantity": 3
+  }
+}

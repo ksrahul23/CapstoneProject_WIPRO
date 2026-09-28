@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>E-Commerce Automation - Execution Report</title>
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; margin: 30px; color: #222; }
+  h1 { margin-bottom: 4px; }
+  .candidate-info { background: #f0f4f8; padding: 12px 18px; border-radius: 6px; margin: 15px 0; border-left: 4px solid #2c3e50; font-size: 14px; }
+  .candidate-info p { margin: 4px 0; }
+  .summary { display: flex; gap: 20px; margin: 20px 0 30px; }
+  .card { padding: 14px 22px; border-radius: 8px; color: #fff; min-width: 120px; text-align: center; }
+  .card.total { background: #445; }
+  .card.passed { background: #2e8b57; }
+  .card.failed { background: #c0392b; }
+  .card.duration { background: #555; }
+  .card .num { font-size: 26px; font-weight: bold; display: block; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #ddd; padding: 10px; text-align: left; font-size: 14px; vertical-align: middle; }
+  th { background: #2c3e50; color: #fff; }
+  tr:nth-child(even) { background: #f7f7f7; }
+  .badge { padding: 4px 10px; border-radius: 12px; color: #fff; font-size: 12px; font-weight: bold; }
+  .badge.pass { background: #2e8b57; }
+  .badge.fail { background: #c0392b; }
+  .thumb { width: 90px; border: 1px solid #ccc; border-radius: 4px; }
+  .overall { font-size: 18px; font-weight: bold; }
+</style>
+</head>
+<body>
+  <h1>E-Commerce Web Automation - Execution Report</h1>
+  <div class="candidate-info">
+    <p><strong>Candidate Name:</strong> Rahul Kumar Shaw</p>
+    <p><strong>Enrollment Number:</strong> 12023002022132</p>
+    <p><strong>Department:</strong> CST</p>
+  </div>
+  <p>Application under test: https://tutorialsninja.com/demo/</p>
+  <p>Run started: 2026-09-24 12:36:35 &nbsp;|&nbsp;
+     Run ended: 2026-09-24 12:37:00</p>
+  <p class="overall">Overall Result:
+     <span class="badge pass">PASS</span>
+  </p>
+
+  <div class="summary">
+    <div class="card total"><span class="num">6</span>Total Steps</div>
+    <div class="card passed"><span class="num">6</span>Passed</div>
+    <div class="card failed"><span class="num">0</span>Failed</div>
+    <div class="card duration"><span class="num">24.4s</span>Duration</div>
+  </div>
+
+  <table>
+    <tr><th>Time</th><th>Step</th><th>Status</th><th>Details</th><th>Screenshot</th></tr>
+    
+            <tr>
+                <td>12:36:39</td>
+                <td>01_launch_application</td>
+                <td><span class="badge pass">PASS</span></td>
+                <td>Opened https://tutorialsninja.com/demo/</td>
+                <td><a href="screenshots\01_launch_application_1790233599343.png" target="_blank"><img src="screenshots\01_launch_application_1790233599343.png" class="thumb"/></a></td>
+            </tr>
+            <tr>
+                <td>12:36:48</td>
+                <td>02_login_to_application</td>
+                <td><span class="badge pass">PASS</span></td>
+                <td>Logged in / registered as rahul.shaw.qa.1790233595@example.com</td>
+                <td><a href="screenshots\02_login_to_application_1790233608322.png" target="_blank"><img src="screenshots\02_login_to_application_1790233608322.png" class="thumb"/></a></td>
+            </tr>
+            <tr>
+                <td>12:36:50</td>
+                <td>03_search_product</td>
+                <td><span class="badge pass">PASS</span></td>
+                <td>Searched for 'MacBook'</td>
+                <td><a href="screenshots\03_search_product_1790233610260.png" target="_blank"><img src="screenshots\03_search_product_1790233610260.png" class="thumb"/></a></td>
+            </tr>
+            <tr>
+                <td>12:36:51</td>
+                <td>04_add_product_to_cart</td>
+                <td><span class="badge pass">PASS</span></td>
+                <td>Added 'MacBook' to cart</td>
+                <td><a href="screenshots\04_add_product_to_cart_1790233610956.png" target="_blank"><img src="screenshots\04_add_product_to_cart_1790233610956.png" class="thumb"/></a></td>
+            </tr>
+            <tr>
+                <td>12:36:57</td>
+                <td>05_update_quantity</td>
+                <td><span class="badge pass">PASS</span></td>
+                <td>Updated quantity to 3</td>
+                <td><a href="screenshots\05_update_quantity_1790233617533.png" target="_blank"><img src="screenshots\05_update_quantity_1790233617533.png" class="thumb"/></a></td>
+            </tr>
+            <tr>
+                <td>12:36:58</td>
+                <td>06_verify_cart_details</td>
+                <td><span class="badge pass">PASS</span></td>
+                <td>Verified product name and quantity in cart</td>
+                <td><a href="screenshots\06_verify_cart_details_1790233617827.png" target="_blank"><img src="screenshots\06_verify_cart_details_1790233617827.png" class="thumb"/></a></td>
+            </tr>
+  </table>
+</body>
+</html>
